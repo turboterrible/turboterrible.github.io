@@ -1,0 +1,73 @@
+body
+{
+  background-color: black;
+}
+
+header
+{
+position: static;
+display: flex;
+justify-content: center;
+border-bottom: 2px solid #bbb;
+background-color: black;
+}
+
+h1{
+  font-family: 'Amatic SC', cursive;
+  color: rgb(197, 92, 0);
+  text-align: center;
+}
+
+h2{
+  font-family: 'Amatic SC', cursive;
+  color: rgb(197, 92, 0);
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #bbb;
+  background-color: black;
+}
+
+/* Меню Бутони */
+ul {          
+  float: none;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li {
+  border-right: 2px solid #bbb;
+  border-left: 2px solid #bbb;
+  border-top: 2px solid #bbb;
+  border-bottom: 2px solid #bbb;
+  background-color: black;
+  list-style-type: none;
+  margin:10px;
+  border-radius: 3px;
+  font-size: 25px;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+li a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2a2a2a;
+  border-radius: 1px;
+}
+
